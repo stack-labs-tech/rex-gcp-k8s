@@ -1,0 +1,9 @@
+package: github.com/stack-labs-tech/rex-gcp-k8s/demos/kubernetes-autoscaling
+import:
+- package: github.com/gorilla/mux
+  version: ^1.6.2
+- package: github.com/prometheus/client_golang
+  version: master
+  subpackages:
+  - prometheus
+  - prometheus/promhttp
