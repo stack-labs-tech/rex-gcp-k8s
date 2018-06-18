@@ -22,15 +22,17 @@ spec:
             port: 8080
           initialDelaySeconds: 5
           periodSeconds: 10
+          timeoutSeconds: 2
         livenessProbe:
           httpGet:
             path: /healthz
             port: 8080
           initialDelaySeconds: 15
           periodSeconds: 20
+          timeoutSeconds: 2
         name: demo-kubernetes-autoscaling
         resources:
-          request:
+          requests:
             cpu: 100m
       - name: prometheus-to-sd
         image: gcr.io/google-containers/prometheus-to-sd:v0.2.3
