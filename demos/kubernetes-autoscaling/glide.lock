@@ -1,24 +1,20 @@
-hash: 50964ab99ba5d9559dd49861bc6ae47243d736e10d3b01e33386b65cdcfad7d2
-updated: 2018-06-02T18:32:50.264316999+02:00
+hash: d0d3f99773e6355fe692568eb28c00358507c6f6f77d669a363b8dc0be069f32
+updated: 2018-06-18T20:23:47.5630173+02:00
 imports:
 - name: github.com/beorn7/perks
   version: 3a771d992973f24aa725d07868b467d1ddfceafb
   subpackages:
   - quantile
 - name: github.com/golang/protobuf
-  version: 3a3da3a4e26776cc22a79ef46d5d58477532dede
+  version: 9f81198da99b79e14d70ca2c3cc1bbe44c6e69b6
   subpackages:
   - proto
-- name: github.com/gorilla/context
-  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
-- name: github.com/gorilla/mux
-  version: e3702bed27f0d39777b0b37b664b6280e8ef8fbf
 - name: github.com/matttproud/golang_protobuf_extensions
   version: c12348ce28de40eed0136aa2b644d0ee0650e56c
   subpackages:
   - pbutil
 - name: github.com/prometheus/client_golang
-  version: a62824bd1b053f1da9b185ba1f6c6b5d591e8157
+  version: faf4ec335fe01ae5a6a0eaa34a5a9333bfbd1a30
   subpackages:
   - prometheus
   - prometheus/promhttp
@@ -33,7 +29,7 @@ imports:
   - internal/bitbucket.org/ww/goautoneg
   - model
 - name: github.com/prometheus/procfs
-  version: 94663424ae5ae9856b40a9f170762b4197024661
+  version: 7d6f385de8bea29190f15ba9931442a0eaef9af7
   subpackages:
   - internal/util
   - nfs

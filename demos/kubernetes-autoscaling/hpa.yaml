@@ -9,9 +9,9 @@ spec:
     kind: Deployment
     name: demo-kubernetes-autoscaling
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 20
   metrics:
   - type: Pods
     pods:
       metricName: promhttp_metric_handler_requests_in_flight
-      targetAverageValue: 20
+      targetAverageValue: 100
